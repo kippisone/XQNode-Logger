@@ -1,0 +1,10 @@
+{
+	"name": "XQNodeLogger",
+	"description": "Logging module for a pretty logging. It's using Winston and makes the output prettier. You can use it in your modules or as a Connect/Express Middleware",
+	"public": false,
+	"version": "0.0.1",
+	"dependencies": {
+		"winston": "*"
+	},
+	"main": "./xqnode-logger"
+}
