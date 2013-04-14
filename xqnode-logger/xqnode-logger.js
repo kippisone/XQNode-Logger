@@ -16,15 +16,15 @@ module.exports = (function() {
 	};
 	
 	logger.req = function(url, data) {
-
+		logger.log('request', msg, data);
 	};
 
 	logger.res = function(msg, data) {
-
+		logger.log('response', msg, data);
 	};
 
 	logger.data = function(data) {
-
+		logger.log('data', data);
 	};
 
 	/**
