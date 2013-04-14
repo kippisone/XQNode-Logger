@@ -1,4 +1,4 @@
-var log = require('./xqnode-logger');
+var log = require('../xqnode-logger');
 log.setLevel('info');	
 
 
